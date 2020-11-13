@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="400dp"
+    android:orientation="vertical"
+    android:background="@drawable/logo"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/btn_move_activity"
+        style="@style/ButtonGeneral"
+        android:text="@string/polisi" />
+    <Button
+        android:id="@+id/btn_move_activity_data"
+        style="@style/ButtonGeneral"
+        android:text="@string/rumah_sakit" />
+    <Button
+        android:id="@+id/btn_dial_number"
+        style="@style/ButtonGeneral"
+        android:text="@string/pemadam_kebakaran" />
+    <Button
+        android:id="@+id/btn_move_activity_object"
+        style="@style/ButtonGeneral"
+        android:text="@string/nomor_lain" />
+
+</LinearLayout>
